@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+    font-family: ITCAvantGardePro;
+    src: url(../font/ITCAvantGardePro-Md.ttf);
+}
+
+@font-face {
+    font-family: EthnocentricRg;
+    src: url(../font/Ethnocentric\ Rg.otf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: Bbn;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+body{
+    font-size: 16px;
+    background: url(../image/background.jpg) repeat;
+}
+
+
+.wrapper {
+    max-width: 1190px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 750px;
+    background: url(../image/header.jpg) no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.n{
+    width: 100%;
+    height: 640px;
+    margin-top: 38px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.n ul{
+    width:19%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.n ul li{
+    list-style-type: disc;
+    font-size: 3.1em;
+    line-height: 50px;
+    color: #4a4f4a;
+}
+
+.n ul li a{
+    font-family: Open Sans;
+    font-size: 0.5em;
+    color: #8d908d;
+    float: left;
+}
+
+.n ul li:hover{
+    color: #ed1c24;
+}
+
+.n ul li:hover a{
+    color: #fff;
+    margin-left: -15px;
+}
+
+.top img{
+    align-items: start;
+    display: inline-block;
+}
+
+.h2{
+    align-items: end;
+    font-family: ITCAvantGardePro;
+    font-size: 4em;
+    color: #fff;
+}
+
+.sec-1 {
+    width: 100%;
+    height: 224px;
+}
+
+.imp {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imp h2 {
+    font-family: EthnocentricRg;
+    font-size: 4.1em;
+    color: #ed1c24;
+}
+
+.imp h2 .inc {
+    font-family: EthnocentricRg;
+    color: #000;
+}
+
+.sec-2 {
+    width: 100%;
+    background-color: #ed1c24;
+}
+
+.imp-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec-2-col {
+    width: 19%;
+    height: 425px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.circle{
+    width: 41.3%;
+    height: 92px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.imp-1 h2{
+    font-family: BebasNeue;
+    font-size: 1.8em;
+    font-weight: normal;
+    color: #fff;
+    margin-top: 22px;
+    display: inline-block;
+}
+
+.imp-1 p{
+    font-family: ITCAvantGardePro;
+    font-size: 0.8em;
+    color: #fff;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 22px;
+}
+
+.shape{
+    width: 0px;
+    height: 0px;
+    border-top: 90px solid #ed1c24;
+    border-right: 65px solid transparent;
+    border-left: 65px solid transparent;
+    margin: auto;
+}
+
+.sec6 {
+    width: 100%;
+    height: 140px;
+}
+
+.imp-2 {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imp-2 h2 {
+    font-family:EthnocentricRg ;
+    font-size: 4.1em;
+    color: #27a9e1;
+}
+
+.imp-2 h2 .h6{
+    color: #000;
+    font-family: EthnocentricRg;
+}
+
+.sec7 {
+    width: 100%;
+    height: 380px;
+    background-color: #27a9e1;
+}
+
+
+ .sec-7 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.sec-7-col {
+     padding-top: 50px;
+    text-align: center;
+}
+
+.sec-7-col h2 {
+    font-family: bebasNeue;
+    font-size: 2em;
+    color: #fff;
+    font-weight: normal;
+}
+
+.sec-7-col p{
+    font-family: ITcavant;
+    font-size: 1.1em;
+    color: #fff;
+} 
+
+.shape-1 {
+    width: 0px;
+    height: 0px;
+    border-top: 90px solid #27a9e1;
+    border-right: 65px solid transparent;
+    border-left: 65px solid transparent;
+    margin: auto;
+}
+
+.sec8 {
+    width: 100%;
+    text-align: center;
+}
+
+.sec8 h2{
+    font-size: 4.1em;
+    font-family: EthnocentricRg;
+    line-height: 225px;
+    display: inline-block;
+    color: #ed1c24;
+}
+
+.sec8 h2 .ple{
+    font-size: 1.1em;
+    font-family: EthnocentricRg;
+    line-height: 225px;
+    display: inline-block;
+    color: #000000;
+}
+
+.sec-9 {
+    width: 100%;
+    background-color: #ed1c24;
+}
+
+.sec-9-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.sec-9-col-1 {
+    width: 286px;
+    height: 275px;
+    background-color: #000000;
+    clip-path: polygon(73% 0, 100% 53%, 58% 100%, 0 73%, 5% 16%);
+    margin-left: 45px;
+}
+
+.sec-9-col-1 img{
+    width: 240px;
+    margin-top: 60px;
+}
+
+.sec-9-col {
+    width: 28%;
+    text-align: center;
+    height: 500px;
+    margin-top: 70px;
+}
+
+.sec-9-col h2 {
+    font-size: 2.5em;
+    font-family: BebasNeue;
+    color: #ffffff;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.sec-9-col p {
+    font-size: 1.25em;
+    font-family: ITCAvantGardePro;
+    color: #ffffff;
+}
+
+.sec-10 {
+    width: 100%;
+    text-align: center;
+}
+
+.sec-10 h2{
+    font-size: 4.1em;
+    font-family: EthnocentricRg;
+    line-height: 225px;
+    display: inline-block;
+    color: #27a9e1;
+}
+
+.sec-10 h2 .span{
+    font-size: 1.1em;
+    font-family: EthnocentricRg;
+    line-height: 225px;
+    display: inline-block;
+    color: #000000;
+}
+
+.sec11 {
+    width: 100%;
+    height: 730px;
+    background-color: #27a9e1;
+}
+
+.sec-11{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.sec-11-col {
+    width: 30.2%;
+    background-color: #ffffff;
+    margin-top: 90px;
+    text-align: center;
+    height: 230px;
+
+}
+
+.sec-11-col h2 {
+    font-family: BebasNeue;
+    font-size: 2.1em;
+    color: #27a9e1;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.sec-11-col span {
+    color: #000000;
+}
+
+.sec-11-col p {
+    font-family: ITCAvantGardePro;
+    font-size: 0.7em;
+    color: #46bdf1;
+    line-height: 21px;
+    padding: 0px 3.7%;
+}
+
+.anc1 {
+    font-size: 0.75em;
+    font-family: ITCAvantGardePro;
+    color: #000000;
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.anc3 {
+     font-family: BabasNeue;
+    font-size: 1.0em;
+    color: #ffffff;
+    font-weight: normal;
+    display: block;
+    background-color: #1c98cd;
+    padding: 10px 0px;
+    margin-top: 87px;
+}
+
+.anc4 {
+     font-family: BabasNeue;
+    font-size: 1.0em;
+    color: #ffffff;
+    font-weight: normal;
+    display: block;
+    background-color: #1c98cd;
+    padding: 10px 0px;
+    margin-top: 50px;
+}
+
+.anc5 {
+     font-family: BabasNeue;
+    font-size: 1.0em;
+    color: #ffffff;
+    font-weight: normal;
+    display: block;
+    background-color: #1c98cd;
+    padding: 10px 0px;
+    margin-top: 86px;
+}
+
+.anc2 {
+    font-family: BabasNeue;
+    font-size: 1.0em;
+    color: #ffffff;
+    font-weight: normal;
+    margin-top: 42px;
+    display: block;
+    background-color: #1c98cd;
+    padding: 11px 0px;
+}
+
+.sec-12{
+    width: 100%;
+    text-align: center;
+}
+
+.section-12 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section {
+    font-size: 4.1em;
+    font-family: EthnocentricRg;
+    line-height: 225px;
+    color: #ed1c24;
+    display: inline-block;
+}
+
+.act {
+    font-size: 1.1em;
+    font-family: EthnocentricRg;
+    line-height: 225px;
+    color: #000000;
+    display: inline-block;
+}
+
+.section-1 {
+    font-size: 1.3em;
+    font-family: ITCAvantGardePro;
+    color: #939292;
+    padding-bottom: 30px;
+    margin-top: -60px;
+}
+
+.sec-13 {
+    width: 100%;
+    background-color: #ed1c24;
+    height: 1300px;
+    text-align: center;
+}
+
+.sec-13 h2 {
+    font-family: BebasNeue;
+    font-size: 2.5em;
+    color: #ffffff;
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.sec-13 p {
+    font-family: ITCAvantGardePro;
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+.form-1 {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.section-13 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sec-13-col {
+    width: 41.6%;
+}
+
+.sec-13-col label,
+.label-1 {
+    padding-top: 30px;
+    font-size: 1.8em;
+    font-family: BebasNeue;
+    color: #ffffff;
+    float: left;
+    padding-left: 0px;
+}
+
+.label-1{
+    padding-left: 4.1%;
+}
+
+.sec-13-col input {
+    width: 95%;
+    font-size: 1.1em;
+    font-family: ITCAvantGardePro;
+    color: #ff5f65;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 15px 0px 15px 4%;
+
+}
+
+.form-1 textarea {
+    width: 90%;
+    height: 130px;
+    font-family: ITCAvantGardePro;
+    font-size: 1.1em;
+    color: #ff5f65;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    padding: 15px 0px 0px 15px;
+}
+
+.input-1 {
+    font-size: 1.8em;
+    font-family: BebasNeue;
+    font-weight: normal;
+    background-color: #f3f3f3;
+    border-bottom: 8px solid #ba0103;
+    float: left;
+    color: #ed1c24;
+    padding: 5px 5.7%;
+    border-radius: 4px;
+    margin: 20px 0px 0px 50px;
+}
+
+.sec-13 a {
+    font-family: ITCAvantGardePro;
+    color: #000000;
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.sec-14 {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #3f3d3d;
+}
+
+.section-14 {
+    display: inline-block;
+}
+
+.section-14 img {
+    padding: 30px 0px 15px 0px;
+}
+
+.sec-14 ul li {
+    display: inline-block;
+}
+
+.sec-14 ul li a {
+    display: inline-block;
+    padding: 6px 8%;
+    background-color: #202020;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin: 0px 25px;
+}
+
+.sec-14 ul li a i {
+    font-size: 1.25em;
+    color: #ffffff;
+}
+
+.sec-14 ul li:hover a {
+    background: #dfdfdf;
+    color: #000000;
+
+}
+.sec-14 ul li:hover a i {
+    color: #000000;
+}
+
+
+
+.sec-14 p {
+    font-size: 1.1em;
+    font-family: OpenSans;
+    color: #ffffff;
+    padding: 15px 0px 65px 0px;
+}

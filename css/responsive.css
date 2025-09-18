@@ -1,0 +1,333 @@
+@media screen and (max-width: 768px) {
+    .n ul{
+        width: 28%;
+        left: 65px;
+        top: 90px;
+    }
+
+    .h2{
+        font-size: 2.5em;
+    }
+
+    .imp h2{
+        font-size: 2.8em;
+    }
+
+    .imp-2 h2{
+        font-size: 2.8em;
+    }
+
+    .sec-2-col{
+        width: 260px;
+    }
+
+    .sec-2-col{
+        margin-bottom: 0px;
+    }
+
+    .sec-2{
+        height: auto;
+        display: inline-block;
+    }
+
+    .circle{
+        width: 36.3%;
+    }
+
+    .sec-11-col{
+        width: 46.2%;
+    }
+
+    .sec-7-col h2{
+        font-size: 1.5em;
+    }
+
+    .sec-7-col {
+        font-size: 0.8em;
+    }
+
+    .sec8 h2{
+        font-size: 3.1em;
+    }
+
+    .sec-10 h2{
+        font-size: 2.9em;
+    }
+
+    .section{
+        font-size: 3.1em;
+    }
+
+    .sec-11{
+        justify-content: space-around;
+    }
+
+    .sec11{
+        height: 1063px;
+    }
+
+    .imp-1{
+        justify-content: space-around;
+    }
+
+    .sec-2-col{
+        margin-bottom: 0px;
+    }
+
+    .sec-9-child{
+        justify-content: space-around;
+    }
+
+    .sec-9-col{
+        width: 45%;
+    }
+
+    .sec-11-col{
+        margin-bottom: 0px;
+    }
+
+    .sec-13 h2{
+        font-size: 2.1em;
+    }
+
+    .sec-13 p{
+        font-size: 0.8em;
+    }
+
+    .sec-13-col{
+        width: 42.6%;
+    }
+
+    .sec-13-col a {
+        font-size: 0.8em;
+    }
+
+    .input-1{
+        margin: 20px 0px 0px 27px;
+        padding: 5px 7.7%;
+    }
+}
+  
+@media screen and (max-width: 640px) {
+    .n ul{
+        width: 32%;
+        left: 65px;
+    }
+
+    .h2{
+        font-size: 2.4em;
+    }
+
+    .sec-10 h2{
+        font-size: 2.4em;
+    }
+
+    .sec-9-col{
+        width: 51%;
+        height: 395px;
+    }
+
+    .sec-9-col-1{
+        margin-left: 45px;
+    }
+
+    .sec11{
+        height: 1994px;
+    }
+
+    .sec-11-col{
+        width: 50.2%;
+    }
+
+    .sec-9-col{
+        width: 61%;
+    }
+
+    .sec-11-col{
+        width: 60.2%;
+    }
+
+    .sec-7-col h2{
+        font-size: 1.9em;
+    }
+
+    .sec-7-col p{
+        font-size: 1.3em;
+    }
+
+    .section-1{
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .n ul{
+        width: 43%;
+        left: 65px;
+    }
+
+    .n ul li a {
+        font-size: 0.4em;
+    }
+
+    .h2{
+        font-size: 1.5em;
+    }
+
+    .header{
+        height:728px ;
+    }
+
+    .imp h2{
+        font-size: 2.5em;
+    }
+
+    .imp-2 h2{
+        font-size: 2.5em;
+    }
+
+    .sec8 h2{
+        font-size: 2.5em;
+    }
+
+     .sec-9-col-1{
+        margin-left: 0px;
+    }
+
+     .sec-10 h2{
+        font-size: 1.9em;
+    }
+
+     .sec-11-col{
+        width: 70%;
+    }
+
+    .section-1{
+        font-size: 0.9em;
+    }
+
+    .section{
+        font-size: 2.8em;
+    }
+
+    .sec-13 p{
+        font-size: 0.7em;
+    }
+
+    .sec-13 a{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .n ul{
+        width: 50%;
+        left: 65px;
+    }
+
+    .h2{
+        font-size: 1.3em;
+    }
+
+
+    .imp h2{
+        font-size: 2.3em;
+    }
+
+    .imp-2 h2{
+        font-size: 2.3em;
+    }
+
+    .sec-9-col{
+        width: 78%;
+    }
+
+    .sec-10 h2{
+        font-size: 1.4em;
+    }
+
+    .sec-11-col{
+        width: 84.2%;
+    }
+
+    .sec-13 p{
+        font-size: 0.5em;
+    }
+
+    .sec-13 h2{
+        font-size: 1.6em;
+    }
+
+    .sec-13 a{
+        font-size: 0.9em;
+    }
+
+    .sec-13-col label{
+        font-size: 1.5em;
+    }
+
+    .sec-7-col p{
+        font-size: 0.9em;
+    }
+
+    .sec-13{
+        height: 1086px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .n ul{
+        width: 55%;
+        left: 65px;
+    }
+
+     .imp h2{
+        font-size: 1.9em;
+    }
+
+    .imp-2 h2{
+        font-size: 1.9em;
+    }
+
+    .sec-9-col{
+        width: 85%;
+    }
+
+    .sec-11-col{
+        width: 94.2%;
+    }
+
+    .section{
+        font-size: 2.1em;
+    }
+
+    .section-1{
+        font-size: 0.9em;
+    }
+
+    .h2{
+        font-size: 1.2em;
+    }
+
+    .sec-10 h2{
+        font-size: 1.3em;
+    }
+
+    .section-1{
+        font-size: 0.6em;
+    }
+
+    .sec-13 p{
+        font-size: 0.6em;
+    }
+
+    .sec-13{
+        height: 1138px;
+    }
+
+    .sec-14 p{
+        font-size: 0.9em;
+    }
+    
+}
